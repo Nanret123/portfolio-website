@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="index.css">
     <link id="theme-style" rel="stylesheet" href="">
     <script src="https://kit.fontawesome.com/5ade3f9829.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Cormorant+Garamond:ital,wght@1,300&family=Dancing+Script:wght@500&family=Playfair+Display&family=Roboto+Mono:ital,wght@1,300&family=Roboto:ital,wght@0,100;0,400;1,100&family=Tapestry&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Cormorant+Garamond:ital,wght@1,300&family=Dancing+Script:wght@500&family=Playfair+Display:ital@1&family=Roboto+Mono:ital,wght@1,300&family=Roboto:ital,wght@0,100;0,400;1,100&family=Tapestry&display=swap"
+        rel="stylesheet">
     <title>web Portfolio</title>
 </head>
 
@@ -70,12 +78,14 @@
 
     <section class="s2">
         <div class="main-container">
+
             <div class="about-wrapper">
                 <div class="about-me">
                     <h4>More About Me</h4>
                     <p>I love building projects and I'm currently learning how to contribute to open source projects which would make me to collaborate with other developers.</p>
                     <p>While I'm building projects, I enjoy reading and making new friends .</p>
                     <hr>
+
                     <div class="social-links">
                         <a target="_blank" href="#"> <i class="fa-brands fa-twitter fa-3x"></i> Twitter</a>
                         <a target="_blank" href="#"> <i class="fa-brands fa-github fa-3x"></i>Github</a>
@@ -83,9 +93,10 @@
                         <a target="_blank" href="#"> <i class="fa-brands fa-facebook fa-3x"></i>facebook</a>
                     </div>
                 </div>
-                <div>
+
+                <div class="top-expertise">
                     <h4>TOP EXPERTISE</h4>
-                    <P>Fullstack developer with primary focus on Javascript + React: <a href="" target="_blank">Download Resume</a></P>
+                    <p>Fullstack developer with primary focus on Javascript + React: <a href="" target="_blank">Download Resume</a></p>
 
                     <div id="skills">
                         <ul>
@@ -106,8 +117,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
+
     </section>
 
     <section class="s1">
@@ -119,7 +129,7 @@
                     <div class="post">
                         <img class="thumbnail" src="./images/ecommerce.png" alt="eCommerce website">
                         <div class="post-preview">
-                            <h5 class="post-title">eCommerce Application</h5>
+                            <h5 class="post-title">E-Commerce Application</h5>
                             <p class="post-intro">HTML, CSS, React</p>
                         </div>
                     </div>
@@ -156,18 +166,18 @@
             <form id="contact-form">
 
                 <label>Name</label>
-                <input class="input-field" type="text" name="name">
+                <input class="input-field" type="text" name="name" placeholder=" last name first name other names">
 
                 <label>Subject</label>
-                <input class="input-field" type="text" name="subject">
+                <input class="input-field" type="text" name="subject" placeholder=" title of subject">
 
                 <label>Email</label>
-                <input class="input-field" type="email" name="name">
+                <input class="input-field" type="email" name="name" placeholder=" knowme@gmail.com">
 
                 <label>Message</label>
-                <textarea class="input-field" name="message"></textarea>
+                <textarea class="input-field" name="message" placeholder=" what would you like to know?"></textarea>
 
-                <input id="submit-btn" type="submit" value="send">
+                <button action="#" id="submit-btn" type="submit" value="send">Send</button>
             </form>
         </div>
     </section>

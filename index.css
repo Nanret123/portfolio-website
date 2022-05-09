@@ -31,6 +31,7 @@ h6,
 strong {
     color: var(--mainText);
     font-weight: 500;
+    font-family: 'Roboto Mono', monospace;
 }
 
 p,
@@ -40,6 +41,7 @@ label,
 input,
 textarea {
     color: var(--secondaryText);
+    font-family: 'Playfair Display', serif;
 }
 
 a {
@@ -166,6 +168,7 @@ h6 {
 
 .dropdown:hover .dropdown-content {
     display: block;
+    background-color: var(--mainColor);
 }
 
 .dropdown-content a {
@@ -173,10 +176,11 @@ h6 {
     color: #000000;
     padding: 12px 16px;
     text-decoration: none;
+    text-align: left;
 }
 
 .dropdown-content a:hover {
-    background-color: var(--mainColor);
+    background-color: var(--secondaryColor);
 }
 
 #navigation {
