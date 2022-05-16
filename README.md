@@ -11,7 +11,7 @@ This application was designed to practice and explore basic html, css and javasc
 ## Getting Started
 To get a local copy on your local device follow these simple steps:
 - clone the repo to your local device
-- open this in any of your favorite editor
+- open this in any of your favorite editors
 - run using live server
 
 ## Helpful Resources
